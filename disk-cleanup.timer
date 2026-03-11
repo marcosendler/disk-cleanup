@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer para limpeza automática de disco (a cada 15 minutos)
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=15min
+Unit=disk-cleanup.service
+
+[Install]
+WantedBy=timers.target

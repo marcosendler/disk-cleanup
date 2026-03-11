@@ -1,0 +1,12 @@
+[Unit]
+Description=Limpeza automática de disco (arquivos mais antigos)
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/disk-cleanup.sh
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
