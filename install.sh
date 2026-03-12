@@ -10,7 +10,7 @@ set -e
 # ── REPOSITÓRIO ───────────────────────────────────────────────────────────────
 GITHUB_USER="marcosendler"
 GITHUB_REPO="disk-cleanup"
-GITHUB_BRANCH="main"
+GITHUB_BRANCH="master"
 BASE_URL="https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}"
 
 # ── CORES ─────────────────────────────────────────────────────────────────────
