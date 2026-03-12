@@ -24,7 +24,7 @@ Serviço Linux que monitora o uso de disco e apaga automaticamente os arquivos m
 ### 1 linha
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/marcosendler/disk-cleanup/main/install.sh -o install.sh
+curl -sSL https://raw.githubusercontent.com/marcosendler/disk-cleanup/master/install.sh -o install.sh
 sudo bash install.sh
 ```
 
@@ -184,7 +184,7 @@ journalctl -u disk-cleanup.service -f
 ## Desinstalação
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/marcosendler/disk-cleanup/main/install.sh | sudo bash -s -- --uninstall
+curl -sSL https://raw.githubusercontent.com/marcosendler/disk-cleanup/master/install.sh | sudo bash -s -- --uninstall
 ```
 
 O desinstalador irá parar e remover o timer, o service e o script. A configuração e o log são opcionais — ele pergunta antes de remover cada um.

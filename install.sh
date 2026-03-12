@@ -11,7 +11,7 @@ set -e
 GITHUB_USER="marcosendler"
 GITHUB_REPO="disk-cleanup"
 GITHUB_BRANCH="master"
-BASE_URL="https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}"
+BASE_URL="https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/refs/heads/${GITHUB_BRANCH}"
 
 # ── CORES ─────────────────────────────────────────────────────────────────────
 RED='\033[0;31m'
